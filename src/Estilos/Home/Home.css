@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+.silla{
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+}
+.izquierdo{
+    background-image: url("./images/fondo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: center;
+    background-size:88ch;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 85ch;
+}
+
+b{
+    font-size: 42px;
+    font-family: 'Anonymous Pro', monospace;
+    z-index: 20;
+}
+
+p{
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 400;
+    font-size: 18px;
+    width: 60%;
+    margin: 70px auto;
+    text-align: justify;
+}
+button{
+    width: 275px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #2C3333;
+color: aliceblue;
+font-size: 18px;
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        display: flex;
+        justify-content: space-around;
+        height: 90vh;
+        flex-direction: column-reverse;
+    }
+    .izquierdo{
+        
+        background-position: center;
+        background-position-y: center;
+        background-size:30ch;
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        flex-direction: column;
+        
+        width: 100%;
+    }
+    button{
+        width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    font-size: 18px;
+    margin-bottom: 80px ;
+    }
+    b{
+        font-size: 38px;
+       
+    }
+    
+}

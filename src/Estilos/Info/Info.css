@@ -1,0 +1,26 @@
+.contenedorInfo{
+    
+    color: aliceblue;
+}
+.arriba{
+    margin: 20px 0 40px 50px;
+}
+.abajo{
+    display: flex;
+    color: aliceblue;
+}
+.escogernos{
+    font-size: 35px;
+    font-family: 'Anonymous Pro', monospace;
+    z-index: 20;
+    color: aliceblue;
+    padding: 20px;
+}
+.titu{
+    font-size: 27px;
+    font-family: 'Anonymous Pro', monospace;
+}
+.d1, .d2, .d3{
+
+text-align: center;
+}
